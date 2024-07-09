@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+
+        android:id="@+id/btnOpenPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page 1"/>
+
+
+    <Button
+        android:id="@+id/btnOpenPage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page 2"/>
+
+    <EditText
+        android:id="@+id/txtA"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:hint="Enter A: "
+
+        />
+    <EditText
+        android:id="@+id/txtB"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:hint="Enter B: "
+        />
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator and return result"
+        />
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="result" />
+
+
+    <EditText
+        android:id="@+id/txtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:hint="Enter phone number: "
+        />
+
+    <EditText
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:hint="Enter content: " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+
+        <Button
+            android:id="@+id/btnCallNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call now"
+            />
+
+        <Button
+            android:id="@+id/btnSendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+
+
